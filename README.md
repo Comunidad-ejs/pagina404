@@ -36,3 +36,8 @@ http://www.flexboxdefense.com/
 
 
 Si quieren mejorar el proyecto o tienen cualquier aporte o duda no duden con contactarmen https://twitter.com/alejozepol estoy para ayudarles.
+
+Daniel Santos: Hago el pull request de la Page 404 de mi portfolio danielsantos495.github.io la cree para este reto, si pueden pasar y hacerme un feedback perfecto, igual sigue en desarrollo, en este momento lo estoy mejorando cuando ya tenga la nueva version les avisare.
+
+![Ejemplo](assets/not-found-daniel.png)
+
