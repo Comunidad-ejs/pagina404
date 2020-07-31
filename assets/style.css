@@ -1,3 +1,71 @@
 body{
-  background-color: aqua;
+  background: rgb(58,115,180);
+  background: linear-gradient(0deg, rgb(58, 73, 180) 35%, rgba(69, 252, 201, 0.8) 100%);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-rows: 100px 1fr 100px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+/* Header*/
+header {
+  display: grid;
+  justify-items: stretch;
+  padding: 0 24px;
+}
+header nav {
+  margin: auto 0;
+  
+}
+img {
+  height: inherit;
+} 
+.img_container {
+  height: 80px;
+}
+
+
+/* Main */
+main {
+  display: grid;
+  color: white;
+}
+main .not_found{
+  align-self: center;
+}
+.not_found h1 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 100px;
+}
+.not_found h4 {
+  text-align: center;
+  font-size: 20px;
+}
+
+
+/* Footer*/
+footer {
+  display: grid;
+  align-items: center;
+  padding: 0 28px;
+}
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+  margin-right: 25px;
+}
+footer a:hover {
+  text-decoration: underline;
 }
