@@ -7,6 +7,8 @@ body{
   display: grid;
   grid-template-rows: 100px 1fr 100px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+
 }
 
 
@@ -15,7 +17,7 @@ body{
 header {
   display: grid;
   justify-items: stretch;
-  padding: 0 24px;
+  padding: 0 20px;
 }
 header nav {
   margin: auto 0;
@@ -32,7 +34,6 @@ img {
 /* Main */
 main {
   display: grid;
-  color: white;
 }
 main .not_found{
   align-self: center;
@@ -60,6 +61,7 @@ footer ul {
   margin: 0;
   padding: 0;
   display: flex;
+  flex-wrap: wrap;
 }
 footer a {
   text-decoration: none;
